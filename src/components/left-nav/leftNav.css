@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ant-menu {
+  background-color: pink;
+}
+.ant-menu-submenu > .ant-menu {
+  background-color: pink;
+}
+@media all and (max-width: 1000px) {
+  .aa {
+    min-width: 236px;
+
+  }
+}

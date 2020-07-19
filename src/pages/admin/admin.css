@@ -1,0 +1,73 @@
+.rightSide {
+    width: 80%;
+    height: 1200px;
+    position: absolute;
+    right: 0;
+}
+.header {
+
+    background-color: deeppink;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.content-right {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.content-right button {
+    margin-left: 10px;
+    height: 20px;
+    width: 60px;
+}
+.rightSideH3 {
+    font-size: 20px;
+    color: #f0f0f0;
+    position: absolute;
+    left: 80px;
+    cursor: pointer;
+    display: flex;
+}
+.content-bottom {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+
+}
+.ant-divider-horizontal {
+    margin: 0;
+}
+.ant-layout-header {
+    padding: 0;
+}
+@media screen and (max-width: 1000px){
+    .rightSide {
+       left: 236px;
+    }
+}
+ .rightSideH3 :after {
+    width: 40px;
+    height: 40px;
+    content: '';
+     position: absolute;
+     bottom: -48px;
+     left: 0;
+     border-top: 20px solid deeppink;
+     border-left: 20px solid transparent;
+     border-right: 20px solid transparent;
+     border-bottom: 20px solid transparent;
+
+}
+ .rightSideContent {
+     width: 100%;
+     height: 1100px;
+     background-color:palevioletred;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 40px;
+ }
